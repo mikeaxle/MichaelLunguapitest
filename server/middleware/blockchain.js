@@ -14,7 +14,6 @@ const getContract = (req, res, next) => {
       provider
     );
 
-    // module.exports = contract;
     req.contract = contract;
     next();
 
